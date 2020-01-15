@@ -1655,3 +1655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about p {
   font-size: 18px;
 }
+
+.about-minisection {
+  margin-top: 50px;
+}
