@@ -706,11 +706,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #promote {
-  padding: 60px 0 30px 0;
+  padding: 3rem 0 8rem 0;
 }
 
-#promote .card {
-  margin-top: 20px;
+#promote .card, #members .card {
+  margin-top: 10%;
+  height: 90%;
 }
 
 #promote .speaker {
@@ -1675,4 +1676,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .about-minisection {
   margin-top: 50px;
+}
+
+.section-header {
+  padding-bottom:30px;
 }
