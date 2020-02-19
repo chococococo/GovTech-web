@@ -486,30 +486,6 @@
 
     </section> -->
 
-    <!--==========================
-      Subscribe Section
-    ============================-->
-    <section id="subscribe">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>Newsletter</h2>
-          <p>Quiero recibir novedades sobre GovTech.</p>
-        </div>
-
-        <form method="POST" action="#">
-          <div class="form-row justify-content-center">
-            <div class="col-auto">
-              <input type="text" class="form-control" placeholder="Enter your Email">
-            </div>
-            <div class="col-auto">
-              <button type="submit">Suscribir</button>
-            </div>
-          </div>
-        </form>
-
-      </div>
-    </section>
-
    
 
     <!--==========================
@@ -521,7 +497,7 @@
 
         <div class="section-header">
           <h2>Contactanos</h2>
-          <p>Envianos un mensaje y te responderemos a la brevedad.</p>
+          <p>Recibir novedades sobre GovTech. <br/> Si envias un mensaje, te responderemos a la brevedad</p>
         </div>
 
         <div class="row contact-info">
@@ -537,7 +513,7 @@
         </div>
 
         <div class="form">
-          <div id="sendmessage">Tu mensaje ha sido enviado, gracias!</div>
+          <div id="sendmessage">Hemos guardado tu e-mail y te mantendremos al tanto de novedades, gracias!</div>
           <div id="errormessage"></div>
           <form action="https://formspree.io/xvorpkkv" method="POST" class="contactForm" id="contact-form">
             <div class="form-row">
@@ -551,11 +527,7 @@
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Al menos 4 caracteres" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe tu mensaje" placeholder="Escribe tu mensaje"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-msg="Por favor escribe tu mensaje" placeholder="OPCIONAL: Escribe tu mensaje"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit" id="contact-submit">Enviar mensaje</button></div>
