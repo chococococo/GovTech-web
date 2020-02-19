@@ -679,10 +679,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about h3, #more-about h3 {
   font-size: 18px;
-  font-weight: bold;
   text-transform: uppercase;
+  font-weight: 800;
   margin-bottom: 10px;
-  color: #fff;
+  color: #f82249;
 }
 
 #about p, #more-about p {
@@ -696,10 +696,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
 }
 
-#more-about h3 {
-  color: #f82249;
-  font-weight: 800!important;
-}
 
 /*--------------------------------------------------------------
 # Speakers Section
